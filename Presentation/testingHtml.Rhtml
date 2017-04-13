@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<title>Title</title>
+</head>
+
+<body>
+
+<p>This is an R HTML document. When you click the <b>Knit HTML</b> button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+
+<!--begin.rcode
+summary(cars)
+end.rcode-->
+
+<p>You can also embed plots, for example:</p>
+
+<!--begin.rcode fig.width=7, fig.height=6
+plot(cars)
+library(d3Network)
+library(R2HTML)
+dfa <- read.table("Connections.txt", header = T)
+files.show(d3SimpleNetwork(dfa))
+data(MisLinks)
+data(MisNodes)
+HTML(d3ForceNetwork(Links = MisLinks, Nodes = MisNodes, Source = "source",
+               Target = "target", Value = "value", NodeID = "name",
+               Group = "group", opacity = 0.4))
+end.rcode-->
+
+</body>
+</html>

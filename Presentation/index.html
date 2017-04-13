@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>R statistical language</title>
+  <meta charset="utf-8">
+  <meta name="description" content="R statistical language">
+  <meta name="author" content="Sachin Sancheti">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/bootstrap/css/bootstrap.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>R statistical language</h1>
+    <h2>A statistical language</h2>
+    <p>Sachin Sancheti<br/>Executive</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Read-And-Delete</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Edit YAML front matter</li>
+<li>Write using R Markdown</li>
+<li>Use an empty line followed by three dashes to separate slides!</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    <pre><code>## Loading required package: devtools
+## WARNING: Rtools is required to build R packages, but is not currently installed.
+## 
+## Please download and install Rtools 3.1 from http://cran.r-project.org/bin/windows/Rtools/ and then run find_rtools().
+## 
+## Attaching package: &#39;devtools&#39;
+## 
+## The following objects are masked from &#39;package:utils&#39;:
+## 
+##     ?, help
+## 
+## The following object is masked from &#39;package:base&#39;:
+## 
+##     system.file
+</code></pre>
+
+<h2>What is R?</h2>
+
+<ol class = "build incremental">
+<li>Used by statistics researchers (made by statisticians initially)</li>
+<li>Flexible</li>
+<li>Freeware <em><a href="http://www.r-project.org">http://www.r-project.org</a></em></li>
+<li>Repository <a href="http://cran.r-project.org">CRAN</a></li>
+<li>Platform independent</li>
+<li>Most common editor - <a href="http://www.rstudio.com/">RStudio</a></li>
+<li>Handling data is easy (Vector, Matrix, Dataframe, List)</li>
+<li>Connects with other languages, applications and databases easily</li>
+<li>Highly engaged community - <a href="http://stackoverflow.com/questions/tagged/r">StackOverflow</a></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Popular packages</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Global by default loads basic statistical packages. The popular packages contributed are as below</p>
+
+<table><thead>
+<tr>
+<th>Package</th>
+<th align="left">Purpose</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><a href="http://plyr.had.co.nz/">plyr</a></td>
+<td align="left">data</td>
+</tr>
+<tr>
+<td><a href="http://cran.r-project.org/web/packages/digest/digest.pdf">digest</a></td>
+<td align="left">cryptographic</td>
+</tr>
+<tr>
+<td><a href="http://ggplot2.org">ggplot2</a></td>
+<td align="left">plots and visuals</td>
+</tr>
+<tr>
+<td>colorspace</td>
+<td align="left">Colour spaces</td>
+</tr>
+<tr>
+<td>stringr</td>
+<td align="left">Working with strings</td>
+</tr>
+<tr>
+<td>RColorBrewer</td>
+<td align="left">Colours for variables</td>
+</tr>
+<tr>
+<td>reshape2</td>
+<td align="left">data restructuring</td>
+</tr>
+<tr>
+<td>zoo</td>
+<td align="left">Time Series</td>
+</tr>
+</tbody></table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>My Watch list</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><a href="http://yihui.name/knitr/">knitr</a></li>
+<li><a href="https://github.com/hadley/dplyr">dplyr</a></li>
+<li><a href="ggvis.rstudio.com/">ggvis</a></li>
+<li><a href="http://rmarkdown.rstudio.com/">RMarkdown</a></li>
+<li><a href="http://shiny.rstudio.com/">shiny</a></li>
+<li><a href="https://github.com/explore">popular on GitHub</a></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Why LEARN R?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><a href="http://r4stats.com/articles/popularity/">http://r4stats.com/articles/popularity/</a></p>
+
+<ol class = "build incremental">
+<li>Most discussed across forums and increasing</li>
+<li>Jobs postings (5th highest after Java, SAS, Python, C/C#)  and increasing</li>
+<li>Highest number of blogs and increasing</li>
+<li>One of the most convenient languages to work in</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Connecting</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Languages</p>
+
+<ol class = "build incremental">
+<li>Rcpp</li>
+<li>RJava</li>
+<li>rPython</li>
+</ol>
+
+<p>Databases</p>
+
+<ol class = "build incremental">
+<li>RODBC</li>
+<li>ROracle</li>
+<li>RJDBC</li>
+</ol>
+
+<p><a href="http://www.r-bloggers.com/integrating-r-with-other-systems/">Integrate R in an Enterprise</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Editor</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>RStudio is the most popular editor</p>
+
+<ol class = "build incremental">
+<li>user friendly environment IDE</li>
+<li>Git/SVN services</li>
+<li>integration with all elements related to R</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Uses in YCH</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol class = "build incremental">
+<li>Organisation data has increased over time</li>
+<li>Historical data -&gt; gold mine</li>
+<li>Excel mistakes, inaccuracies time taking</li>
+<li>Analysis is often repetitive</li>
+<li>Information visibility lacking</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>Where do we stand?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="C:/Users/Sachin_2/Desktop/Y3Presentation/Presentation/libraries/frameworks/io2012/images/Hierarchy.gif" alt="Hierarchy"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Abbott AMS</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Read-And-Delete'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title=''>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Popular packages'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='My Watch list'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Why LEARN R?'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Connecting'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Editor'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Uses in YCH'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Where do we stand?'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Abbott AMS'>
+         10
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  <script src="libraries/widgets/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/widgets/bootstrap/js/bootbox.min.js"></script>
+
+  <script>  
+  $(function (){ 
+    $("#example").popover(); 
+    $("[rel='tooltip']").tooltip(); 
+  });  
+  </script>  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

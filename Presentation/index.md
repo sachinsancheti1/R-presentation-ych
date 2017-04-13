@@ -1,0 +1,136 @@
+---
+title       : R statistical language
+subtitle    : A statistical language
+author      : Sachin Sancheti
+job         : Executive
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Read-And-Delete
+
+1. Edit YAML front matter
+2. Write using R Markdown
+3. Use an empty line followed by three dashes to separate slides!
+
+--- .class #id 
+
+
+```
+## Loading required package: devtools
+## WARNING: Rtools is required to build R packages, but is not currently installed.
+## 
+## Please download and install Rtools 3.1 from http://cran.r-project.org/bin/windows/Rtools/ and then run find_rtools().
+## 
+## Attaching package: 'devtools'
+## 
+## The following objects are masked from 'package:utils':
+## 
+##     ?, help
+## 
+## The following object is masked from 'package:base':
+## 
+##     system.file
+```
+
+
+## What is R?
+
+> 1. Used by statistics researchers (made by statisticians initially)
+> 2. Flexible
+> 3. Freeware *http://www.r-project.org*
+> 4. Repository [CRAN](http://cran.r-project.org)
+> 5. Platform independent
+> 6. Most common editor - [RStudio](http://www.rstudio.com/)
+> 7. Handling data is easy (Vector, Matrix, Dataframe, List)
+> 8. Connects with other languages, applications and databases easily
+> 9. Highly engaged community - [StackOverflow](http://stackoverflow.com/questions/tagged/r)
+
+---
+
+## Popular packages
+
+Global by default loads basic statistical packages. The popular packages contributed are as below
+
+|Package|Purpose|
+|--------|:------|
+|[plyr](http://plyr.had.co.nz/)| data|
+|[digest](http://cran.r-project.org/web/packages/digest/digest.pdf)| cryptographic|
+|[ggplot2](http://ggplot2.org)| plots and visuals|
+|colorspace| Colour spaces|
+|stringr| Working with strings|
+|RColorBrewer| Colours for variables|
+|reshape2| data restructuring|
+|zoo| Time Series|
+
+---
+
+## My Watch list
+- [knitr](http://yihui.name/knitr/)
+- [dplyr](https://github.com/hadley/dplyr)
+- [ggvis](ggvis.rstudio.com/)
+- [RMarkdown](http://rmarkdown.rstudio.com/)
+- [shiny](http://shiny.rstudio.com/)
+- [popular on GitHub](https://github.com/explore)
+
+---
+
+## Why LEARN R?
+
+http://r4stats.com/articles/popularity/
+
+> 1. Most discussed across forums and increasing
+> 2. Jobs postings (5th highest after Java, SAS, Python, C/C#)  and increasing
+> 3. Highest number of blogs and increasing
+> 4. One of the most convenient languages to work in
+
+---
+
+## Connecting
+Languages
+
+> 1. Rcpp
+> 2. RJava
+> 3. rPython
+
+Databases
+
+> 1. RODBC
+> 2. ROracle
+> 3. RJDBC
+
+[Integrate R in an Enterprise](http://www.r-bloggers.com/integrating-r-with-other-systems/)
+
+---
+
+## Editor
+
+RStudio is the most popular editor
+
+> 1. user friendly environment IDE
+> 2. Git/SVN services
+> 3. integration with all elements related to R
+
+---
+
+## Uses in YCH
+
+> 1. Organisation data has increased over time
+> 2. Historical data -> gold mine
+> 3. Excel mistakes, inaccuracies time taking
+> 4. Analysis is often repetitive
+> 5. Information visibility lacking
+
+---
+
+## Where do we stand?
+
+![Hierarchy](C:/Users/Sachin_2/Desktop/Y3Presentation/Presentation/libraries/frameworks/io2012/images/Hierarchy.gif)
+
+---
+
+## Abbott AMS
